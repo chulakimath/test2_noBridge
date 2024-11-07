@@ -9,6 +9,7 @@ import Loader from './components/Loader';
 import PressableComponent from './components/PressableComponent';
 import StatusBarComp from './components/StatusBarComp';
 import RefUse from './components/RefUse';
+import ModelBox from './components/ModelBox';
 
 const App = () => {
   const isDarkMode=useColorScheme()=='dark';
@@ -35,7 +36,8 @@ const App = () => {
         {/* <PressableComponent /> */}
         
         {/* <StatusBarComp /> */}
-        <RefUse />
+        {/* <RefUse /> */}
+        <ModelBox />
              
         </ScrollView>
       </SafeAreaView>

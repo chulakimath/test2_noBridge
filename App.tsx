@@ -10,6 +10,7 @@ import PressableComponent from './components/PressableComponent';
 import StatusBarComp from './components/StatusBarComp';
 import RefUse from './components/RefUse';
 import ModelBox from './components/ModelBox';
+import Get_api from './components/Get_api';
 
 const App = () => {
   const isDarkMode=useColorScheme()=='dark';
@@ -37,7 +38,8 @@ const App = () => {
         
         {/* <StatusBarComp /> */}
         {/* <RefUse /> */}
-        <ModelBox />
+        {/* <ModelBox /> */}
+        <Get_api />
              
         </ScrollView>
       </SafeAreaView>
